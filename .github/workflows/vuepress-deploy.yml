@@ -1,35 +1,17 @@
-name: release docs CI
-
-on: 
-  push:
-    branches:
-      - master
-
+name: Build and Deploy
+on: [push]
 jobs:
-  build:
+  build-and-deploy:
     runs-on: ubuntu-latest
-
-    strategy:
-      matrix:
-        node-version: [14.x]
-
     steps:
-      - uses: actions/checkout@v1
-      - name: 步骤：第一步 -> Use Node.js ${{ matrix.node-version }}
-        uses: actions/setup-node@v1
-        with:
-          node-version: ${{ matrix.node-version }}
+    - name: Checkout
+      uses: actions/checkout@master
 
-      - name: 步骤：第二步 -> 安装依赖
-        run: |
-          npm install
-          npm run build
-        env:
-          CI: true
-
-      - name: 步骤：第三步 -> 使用脚本部署
-        env:
-          ACCESS_TOKEN_DEPLOY: ${{secrets.ACCESS_TOKEN }}
-          PUBLISH_BRANCH: build
-          PUBLISH_DIR: /
-        uses: veaba/vuepress-actions@0.83
+    - name: vuepress-deploy
+      uses: jenkey2011/vuepress-deploy@master
+      env:
+        ACCESS_TOKEN: ${{ secrets.ACCESS_TOKEN }}
+        TARGET_REPO: AkarinLiu/genshin-ics
+        TARGET_BRANCH: build
+        BUILD_SCRIPT: yarn && yarn build
+        BUILD_DIR: docs/.vuepress/dist
