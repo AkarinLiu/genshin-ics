@@ -32,4 +32,4 @@ jobs:
           ACCESS_TOKEN_DEPLOY: ${{secrets.ACCESS_TOKEN }}
           PUBLISH_BRANCH: build
           PUBLISH_DIR: /
-        uses: veaba/vuepress-actions@latest
+        uses: veaba/vuepress-actions@0.83
