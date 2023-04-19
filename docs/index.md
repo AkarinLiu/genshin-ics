@@ -6,5 +6,5 @@ tagline: A Genshin impact character birthday Calendar.
 actions:
   - text: Subscribe Now
     link: /subscribe/
-    type: primary Licensed | Copyright © 2023-present AkarinLiu
----
+    type: primary 
+footer: CC0 Licensed | Copyright © 2023-present AkarinLiu

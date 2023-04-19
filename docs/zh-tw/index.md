@@ -8,4 +8,3 @@ actions:
       link : /zh-tw/subcribe/
       type: primary
 footer: CC0 Licensed | Copyright © 2023-present AkarinLiu
----
