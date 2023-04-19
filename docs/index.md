@@ -1,6 +1,6 @@
 ---
 home: true
-heroImage: /paimon-shock.png
+heroImage: /assets/img/paimon-shock.png
 heroText: Genshin-ics
 tagline: A Genshin impact character birthday Calendar.
 actionText: Subscribe Now

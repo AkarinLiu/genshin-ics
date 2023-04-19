@@ -3,10 +3,10 @@ module.exports = {
     title:'Genshin-ics',
     evergreen:'true',
     head: [
-        [ 'link' , { rel: 'icon' , href: '/paimon-shock.png' } ]
+        [ 'link' , { rel: 'icon' , href: '/assets/img/paimon-shock.png' } ]
     ],
     themeConfig:{
-        logo:'/paimon-shock.png',
+        logo:'/assets/img/paimon-shock.png',
         locales:{
             // English site
             '/':{

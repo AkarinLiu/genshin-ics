@@ -1,6 +1,6 @@
 ---
 home: true
-heroImage: /paimon-shock.png
+heroImage: /assets/img/paimon-shock.png
 heroText: Genshin-ics
 tagline: 一个原神角色生日日历
 actionText: 立即订阅
