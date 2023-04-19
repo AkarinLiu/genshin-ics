@@ -1,0 +1,1 @@
+export const siteData = JSON.parse("{\"base\":\"/genshin-ics/\",\"lang\":\"en-US\",\"title\":\"Genshin-ics\",\"description\":\"\",\"head\":[[\"link\",{\"rel\":\"icon\",\"href\":\"/assets/img/paimon-shock.png\"}]],\"locales\":{}}")
