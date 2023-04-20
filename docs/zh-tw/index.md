@@ -7,4 +7,5 @@ actions:
     - text: 立即訂閱
       link : https://player.bilibili.com/player.html?bvid=BV1GJ411x7h7
       type: primary
-footer: CC0 Licensed | Copyright © 2023-present AkarinLiu
+footer: CC0 Licensed | Copyright © 2023-present AkarinLiu | 由VuePress強力驅動
+---
