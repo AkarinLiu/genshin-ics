@@ -1,6 +1,6 @@
 import { defaultTheme } from "vuepress"
 export default {
-    base:'/genshin-ics/',
+    base:'/',
     title:'Genshin-ics',
     evergreen:'true',
     head: [
