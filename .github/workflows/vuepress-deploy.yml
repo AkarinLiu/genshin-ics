@@ -18,3 +18,4 @@ jobs:
         TARGET_BRANCH: build
         BUILD_SCRIPT: yarn && yarn build
         BUILD_DIR: docs/.vuepress/dist
+        CNAME: genshinics.ghpages.akarinliu.com
